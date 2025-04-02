@@ -1,0 +1,77 @@
+/*
+
+filename: lab04.css
+
+author: John Zaccari
+
+created: 24/03/2025
+
+last modified: 24/03/2025
+
+description: refers to lab04.html
+
+*/
+
+/* CSS for heading 1 */
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+/* Change font to Calibri for the whole webpage */
+* { font-family: calibri, sans-serif; }  
+
+/* Change the colour of all ellements on the webpage */
+* { color:  #2F4F4F; }
+
+/* set colour for all header 2 ellements */
+h2 { color: rgb(0,128,128)}
+
+/* set font style for aside and footer */
+aside, footer { font-style: italic; }     
+
+/* Change font for all heading ellements */
+h1, h2, h3 { font-family: Arial, sans-serif; }
+
+/* set boarder on table */
+table { border: 1px solid black; }
+
+/* set boarder on table header cells and table data cells */
+table, th, td { border: 1px solid black; }
+
+/* Centre image heading */
+#images {
+    text-align : center;  /* careful: center has US spelling */
+    }
+
+/* set colour for the header 3 ellement */
+#h3_heading { color: red; }
+
+/* Set colour and font size for a specfic class */
+.special {
+    color: darkorange;
+    font-weight:bold;
+   }      
+
+/* allign the month table heading to the right */
+.month{ text-align: right;}
+
+/* menu bar */
+nav a {
+    text-decoration: none; /* remove underline */
+    padding:0.2em 0.6em; /* padding around text */
+    border: 4px solid #ccc; /* border around links */
+   }     
+
+/* Make the bullet points square */
+ol ul  { list-style-type: square; }
+
+/* set the <aside> element invisible when we move the mouse over it */
+aside:hover {
+    display: none;
+}
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
